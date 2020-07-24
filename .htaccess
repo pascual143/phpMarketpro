@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+rewriteEngine on
+RewriteRule ^(.*)\.html $1\.php
+RewriteRule ^oferta/([0-9]+)$ /oferta/index.php?id=$1
